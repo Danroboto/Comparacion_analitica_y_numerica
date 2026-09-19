@@ -1,6 +1,5 @@
 # Comparacion_analitica_y_numerica
 Ecuación diferencial separable - Método de Euler
-Descripción:
 
 Este proyecto resuelve una ecuación diferencial ordinaria separable de manera analítica mediante el método de separación de variables y, posteriormente, aproxima su solución utilizando el método numérico de Euler.
 
