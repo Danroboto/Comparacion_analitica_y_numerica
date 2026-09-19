@@ -6,6 +6,8 @@ Este proyecto resuelve una ecuación diferencial ordinaria separable de manera a
 
 La ecuación diferencial seleccionada es:
 dy/dt = y
+
+
 con la condición inicial:
 y(0)= 1
 
