@@ -16,11 +16,8 @@ y_euler[0] = y0
 
 
 for n in range(len(t) - 1):
-    # f(t,y) = y
-    f = y_euler[n]
 
-    # Fórmula de Euler:
-    # y(n+1) = y(n) + h*f(t(n), y(n))
+    f = y_euler[n]
     y_euler[n + 1] = y_euler[n] + h * f
 
 
@@ -37,8 +34,6 @@ for i in range(len(t)):
           f"{y_exacta[i]:10.6f}   {error:10.6f}")
 
 
-# Valores más pequeños para que la solución exacta
-# aparezca como una curva suave
 t_suave = np.linspace(0, 1, 100)
 
 plt.plot(
